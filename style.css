@@ -2,6 +2,8 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 html {
   scroll-behavior: smooth;
@@ -27,13 +29,14 @@ section {
 
 
 .logo {
-   margin-bottom: 30%;  
-
+   
 }
 
 .mainTitle {
     margin: auto;
 }
+
+
 .scroll-down {
   height: 50px;
   width: 30px;
