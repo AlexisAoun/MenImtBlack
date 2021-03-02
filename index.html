@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Men Imt Black</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 
@@ -26,26 +27,21 @@
 
     <section id="sec-2">
       <div class="container1">
-          <button class="menuItemLeft" onclick="window.location.href='#';">
-              Notre Liste
-          </button>
-          <button class="menuItemRight" onclick="window.location.href='#';">
-              Le programme
-          </button>
-          <button class="menuItemLeft" onclick="window.location.href='#';">
-              Le fil rouge
-          </button>
-          <button class="menuItemRight" onclick="window.location.href='#';">
-              Item4
-          </button>
-          <div class="socialSection">
-              <p>Follow us !</p>
-              <div class="socialIcons">
-                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                    &nbsp;&nbsp;&nbsp;
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-
-              </div>
+          <div onclick="location.href='notre_liste.html';" style="cursor: pointer;" class="menuItemListe"></div>
+          <div onclick="location.href='programme.html';" style="cursor: pointer;" class="menuItemProgramme"></div>
+          <div id="thirdContainer">
+                <div onclick="location.href='fil_rouge.html';" style="cursor: pointer;" class="menuItemFilRouge"></div>
+                <div class="socialSection">
+                    <div class="socialIcons">
+                        <a href="https://facebook.com">
+                            <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                        </a>
+                          &nbsp;&nbsp;&nbsp;
+                          <a href="https://instagram.com">
+                             <i class="fa fa-instagram" aria-hidden="true"></i>
+                          </a>
+                    </div>
+                </div>
           </div>
       </div>
     </section>

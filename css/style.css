@@ -1,0 +1,217 @@
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body::after{
+   position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
+   content:url(../img/liste_logo_hover.png) url(../img/programme_logo_hover.png) url(../img/fil_rouge_logo_hover.png); 
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+}
+
+
+#sec-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  background-image: url("../img/wall-mib1.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+#sec-2 {
+  background: url(../img/menu_back.png) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.mainTitle {
+    margin: auto;
+}
+
+
+.menuItemListe {
+    display: flex;
+    background: url(../img/liste_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30%;
+    width: 17%;
+    padding-top: 17%;
+}
+.menuItemListe:hover {
+    display: flex;
+    background: url(../img/liste_logo_hover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30%;
+    width: 17%;
+    padding-top: 17%;
+}
+
+
+
+.menuItemProgramme {
+    display: flex;
+    background: url(../img/programme_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 60%;
+    width: 17%;
+    padding-top: 17%;
+}
+.menuItemProgramme:hover {
+    display: flex;
+    background: url(../img/programme_logo_hover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 60%;
+    width: 17%;
+    padding-top: 17%;
+}
+
+
+
+.menuItemFilRouge {
+    display: flex;
+    background: url(../img/fil_rouge_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30%;
+    width: 17%;
+    padding-top: 17%;
+}
+.menuItemFilRouge:hover {
+    display: flex;
+    background: url(../img/fil_rouge_logo_hover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 30%;
+    width: 17%;
+    padding-top: 17%;
+}
+
+
+
+.menuItemLeft{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    margin-left: 20%;
+    width: 20%;
+}
+
+.menuItemRight {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    padding: 1%;
+    margin-left: 60%;
+    border-radius: 10px;
+    background-color: #dbdbdb;
+}
+
+
+
+#thirdContainer {
+    display: flex;
+}
+
+.socialSection {
+    width:15%;
+    display: flex;
+    margin-left: 35%;
+    margin-top:10%;
+    margin-bottom:3%;
+    padding-top: 0.3%;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: space-around;
+    font-size: 60px;
+}
+
+.socialIcons a i{
+    color: black;
+}
+
+
+
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  border: 2px solid black;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid black;
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
+}
