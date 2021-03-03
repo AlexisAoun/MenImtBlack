@@ -23,12 +23,11 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 40px;
   background-image: url("../img/wall-mib1.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
 }
 #sec-2 {
@@ -46,9 +45,18 @@ section {
 }
 
 .mainTitle {
-    margin: auto;
+    font-size: 20px;
+    margin-top: 80%;
 }
 
+.logo {
+    background-image: url(../img/logo_big.png);
+    background-position: center;
+    background-size: contain;
+    margin: auto;
+    width: 50%;
+    padding-top: 50%;
+}
 
 .menuItemListe {
     display: flex;
