@@ -6,11 +6,6 @@ body {
 	position: relative;
 	margin-top: 100px;
 }
-
-.test {
-   margin-top: 10%; 
-
-}
 nav {
 	position: fixed;
 	z-index: 10;
@@ -68,12 +63,25 @@ nav .icon-burger .line {
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 	nav .logo {
 		float: none;
 		width: auto;
 		justify-content: center;
 	}
+    nav {
+    	position: fixed;
+    	z-index: 10;
+    	left: 0;
+    	right: 0;
+    	top: 0;
+    	font-family: 'Montserrat', sans-serif;
+    	height: 110px;
+    	background-color: black;
+        display: flex;
+        justify-content: space-around;
+    }
+
 	nav .links {
 		float: none;
 		position: fixed;
