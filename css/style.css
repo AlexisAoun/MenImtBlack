@@ -23,17 +23,20 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../img/wall-mib1.png");
+  background-image: url("../img/home_back_mobile.jpg");
   background-attachment: fixed;
-  background-position: center;
+  background-position: center, center;
   background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
   background-size: contain;
   text-align: center;
 }
 #sec-2 {
   background: url(../img/menu_back.png) no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
