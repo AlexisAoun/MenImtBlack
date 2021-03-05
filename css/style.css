@@ -7,7 +7,8 @@
 }
 body::after{
    position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
-   content:url(../img/liste_logo_hover.png) url(../img/programme_logo_hover.png) url(../img/fil_rouge_logo_hover.png); 
+   content:url(../img/liste_logo_hover.png) url(../img/programme_logo_hover.png) 
+   url(../img/fil_rouge_logo_hover.png) url(../img/sponsor_logo_hover.png); 
 }
 body, html {
   height: 100%;
@@ -47,6 +48,7 @@ section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 }
 
 .container1{
@@ -71,25 +73,33 @@ section {
 }
 
 
+#firstContainer{
+    display: flex;
+    margin-right: 15%;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+#secondContainer {
+    display: flex;
+    margin-left: 15%;
+    justify-content: space-around;
+    margin-top: 5%;
+}
 
 
 .menuItemListe {
-    display: flex;
     background: url(../img/liste_logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 30%;
     width: 17%;
     padding-top: 17%;
 }
 .menuItemListe:hover {
-    display: flex;
     background: url(../img/liste_logo_hover.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 30%;
     width: 17%;
     padding-top: 17%;
 }
@@ -97,64 +107,66 @@ section {
 
 
 .menuItemProgramme {
-    display: flex;
     background: url(../img/programme_logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 60%;
     width: 17%;
     padding-top: 17%;
 }
 .menuItemProgramme:hover {
-    display: flex;
     background: url(../img/programme_logo_hover.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 60%;
     width: 17%;
     padding-top: 17%;
 }
 
-
-
 .menuItemFilRouge {
-    display: flex;
     background: url(../img/fil_rouge_logo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 30%;
     width: 17%;
     padding-top: 17%;
 }
 .menuItemFilRouge:hover {
-    display: flex;
     background: url(../img/fil_rouge_logo_hover.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 30%;
     width: 17%;
     padding-top: 17%;
 }
 
+.menuItemSponsors {
+    background: url(../img/sponsor_logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 17%;
+    padding-top: 17%;
+}
 
-
-#thirdContainer {
-    display: flex;
+.menuItemSponsors:hover {
+    background: url(../img/sponsor_logo_hover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 17%;
+    padding-top: 17%;
 }
 
 .socialSection {
-    width:15%;
+    width:10%;
     display: flex;
-    margin-left: 35%;
-    margin-top:10%;
-    margin-bottom:3%;
-    padding-top: 0.3%;
-    flex-direction: column;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     align-items: center;
+    padding-top: 0.3%;
+    justify-content: center;
     border-radius: 10px;
     background-color: white;
 }
@@ -224,6 +236,17 @@ section {
         margin-top: 70%;
     }
 
+    #firstContainer{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    #secondContainer {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
     .menuItemListe {
         display: flex;
         background: url(../img/liste_logo.png);
@@ -271,7 +294,6 @@ section {
 
 
     .menuItemFilRouge {
-        display: flex;
         background: url(../img/fil_rouge_logo.png);
         background-position: center;
         background-repeat: no-repeat;
@@ -281,7 +303,6 @@ section {
         padding-top: 80%;
     }
     .menuItemFilRouge:hover {
-        display: flex;
         background: url(../img/fil_rouge_logo_hover.png);
         background-position: center;
         background-repeat: no-repeat;
@@ -291,20 +312,32 @@ section {
         padding-top: 80%;
     }
 
-    #thirdContainer {
-       display: flex;
-       flex-direction: column;
-    }
 
+    .menuItemSponsors {
+        background: url(../img/sponsor_logo.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        width: 80%;
+        padding-top: 80%;
+    }
+    
+    .menuItemSponsors:hover {
+        background: url(../img/sponsor_logo_hover.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-left: 10%;
+        width: 80%;
+        padding-top: 80%;
+    }
     .socialSection {
         width:50%;
-        display: flex;
-        margin-left: 25%;
-        margin-top:10%;
-        margin-bottom:3%;
-        padding-top: 0.3%;
-        flex-direction: column;
-        align-items: center;
+        position: relative;
+        bottom: 10px;
+        left: 25%;
         border-radius: 10px;
         background-color: white;
     }

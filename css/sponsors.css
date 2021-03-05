@@ -1,0 +1,250 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin-bottom: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.spl{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.spr{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.spl .description{
+    font-size: 20px;
+    width: 60%;
+    margin-right: 5%;
+}
+
+.spr .description{
+    font-size: 20px;
+    width: 60%;
+    margin-left: 5%;
+}
+
+hr{
+  border: 0;
+  width: 50%;
+  height: 2px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background-image: linear-gradient(to right, 
+  transparent, #CCC, transparent);  
+}
+
+.logoFunbreak{
+    background: url(../img/logo_sponsors/funbreak.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    width: 20%;
+    padding-top: 5.4%;
+    margin-left: 5%;
+}
+
+.logoMailo{
+    background: url(../img/logo_sponsors/mailo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    width: 20%;
+    padding-top: 6.16%;
+    margin-right: 5%;
+}
+.logoRedBull{
+    background: url(../img/logo_sponsors/redbull.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    width: 15%;
+    padding-top: 15%;
+    margin-left: 10%;
+}
+.logoNagoya{
+    background: url(../img/logo_sponsors/nagoya.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    width: 20%;
+    padding-top: 3.08%;
+    margin-right: 5%;
+}
+.logoCornetFrites{
+    background: url(../img/logo_sponsors/cornet_frites.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    width: 20%;
+    padding-top: 12%;
+    margin-left: 5%;
+}
+.logoLaPlaza{
+    background: url(../img/logo_sponsors/le_plaza.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    width: 20%;
+    padding-top: 13.76%;
+    margin-right: 5%;
+}
+.logoKassia{
+    background: url(../img/logo_sponsors/kassia_food.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    width: 20%;
+    padding-top: 17.2%;
+    margin-left: 5%;
+}
+.logoIK{
+    background: url(../img/logo_sponsors/istanbul_kebab.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 15%;
+    background-position: center,center;
+    padding-top: 15%;
+    margin-right: 5%;
+}
+.logoPatisserieEcoliers{
+    background: url(../img/logo_sponsors/patisserie_ecolier.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    width: 20%;
+    padding-top: 11.5%;
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 800px){
+
+    .spl{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    
+    .spr{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2%;
+    }
+    
+    .spl .description{
+        display: flex;
+        font-size: 15px;
+        width: 80%;
+        margin-left: 10%;
+        justify-content: center;
+    }
+    
+    .spr .description{
+        display: flex;
+        font-size: 15px;
+        width: 80%;
+        margin-left: 10%;
+        justify-content: center;
+    }
+
+
+    .logoFunbreak{
+        background: url(../img/logo_sponsors/funbreak.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center, center;
+        width: 80%;
+        padding-top: 21.6%;
+        margin-top: 10px;
+        margin-left: 10%
+    }
+    
+    .logoMailo{
+        background: url(../img/logo_sponsors/mailo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center,center;
+        width: 80%;
+        padding-top: 24.64%;
+        margin-left: 10%
+    }
+    .logoRedBull{
+        background: url(../img/logo_sponsors/redbull.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center,center;
+        width: 80%;
+        padding-top: 46.8%;
+        margin-left: 10%;
+    }
+    .logoNagoya{
+        background: url(../img/logo_sponsors/nagoya.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center,center;
+        width: 80%;
+        padding-top: 12.32%;
+        margin-left: 10%;
+    }
+    .logoCornetFrites{
+        background: url(../img/logo_sponsors/cornet_frites.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center,center;
+        width: 80%;
+        padding-top: 48%;
+        margin-left: 10%;
+    }
+    .logoLaPlaza{
+        background: url(../img/logo_sponsors/le_plaza.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center,center;
+        width: 80%;
+        padding-top: 55.04%;
+        margin-left: 10%;
+    }
+    .logoKassia{
+        background: url(../img/logo_sponsors/kassia_food.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center,center;
+        width: 80%;
+        padding-top: 68.8%;
+        margin-left: 10%;
+    }
+    .logoIK{
+        background: url(../img/logo_sponsors/istanbul_kebab.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center,center;
+        width: 60%;
+        padding-top: 60%;
+        margin-left: 20%;
+    }
+    .logoPatisserieEcoliers{
+        background: url(../img/logo_sponsors/patisserie_ecolier.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center,center;
+        width: 80%;
+        padding-top: 46%;
+        margin-left: 10%;
+    }
+    
+
+}
