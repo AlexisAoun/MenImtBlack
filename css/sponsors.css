@@ -53,7 +53,7 @@ hr{
     background-position: center,center;
     width: 20%;
     padding-top: 5.4%;
-    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .logoMailo{
@@ -63,8 +63,19 @@ hr{
     background-position: center,center;
     width: 20%;
     padding-top: 6.16%;
+    margin-left: 5%;
+}
+
+.logoBoulanger{
+    background: url(../img/logo_sponsors/boulanger.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    width: 20%;
+    padding-top: 6.16%;
     margin-right: 5%;
 }
+
 .logoRedBull{
     background: url(../img/logo_sponsors/redbull.png);
     background-size: contain;
@@ -74,6 +85,17 @@ hr{
     padding-top: 15%;
     margin-left: 10%;
 }
+
+.logoLydia{
+    background: url(../img/logo_sponsors/lydia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    width: 20%;
+    padding-top: 6.16%;
+    margin-right: 5%;
+}
+
 .logoNagoya{
     background: url(../img/logo_sponsors/nagoya.jpg);
     background-size: contain;
@@ -81,7 +103,7 @@ hr{
     background-position: center,center;
     width: 20%;
     padding-top: 3.08%;
-    margin-right: 5%;
+    margin-left: 5%;
 }
 .logoCornetFrites{
     background: url(../img/logo_sponsors/cornet_frites.png);
@@ -90,7 +112,7 @@ hr{
     background-position: center,center;
     width: 20%;
     padding-top: 12%;
-    margin-left: 5%;
+    margin-right: 5%;
 }
 .logoLaPlaza{
     background: url(../img/logo_sponsors/le_plaza.png);
@@ -99,7 +121,7 @@ hr{
     background-position: center,center;
     width: 20%;
     padding-top: 13.76%;
-    margin-right: 5%;
+    margin-left: 5%;
 }
 .logoKassia{
     background: url(../img/logo_sponsors/kassia_food.png);
@@ -108,7 +130,7 @@ hr{
     background-position: center,center;
     width: 20%;
     padding-top: 17.2%;
-    margin-left: 5%;
+    margin-right: 5%;
 }
 .logoIK{
     background: url(../img/logo_sponsors/istanbul_kebab.png);
@@ -117,7 +139,7 @@ hr{
     width: 15%;
     background-position: center,center;
     padding-top: 15%;
-    margin-right: 5%;
+    margin-left: 5%;
 }
 .logoPatisserieEcoliers{
     background: url(../img/logo_sponsors/patisserie_ecolier.png);
@@ -126,7 +148,7 @@ hr{
     background-position: center,center;
     width: 20%;
     padding-top: 11.5%;
-    margin-left: 5%;
+    margin-right: 5%;
 }
 
 @media screen and (max-width: 800px){
@@ -181,6 +203,25 @@ hr{
         width: 80%;
         padding-top: 24.64%;
         margin-left: 10%
+    }
+
+    .logoBoulanger{
+        background: url(../img/logo_sponsors/boulanger.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center,center;
+        width: 80%;
+        padding-top: 24.64%;
+        margin-left: 10%;
+    }
+    .logoLydia{
+        background: url(../img/logo_sponsors/lydia.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center,center;
+        width: 80%;
+        padding-top: 24.64%;
+        margin-left: 10%;
     }
     .logoRedBull{
         background: url(../img/logo_sponsors/redbull.png);
