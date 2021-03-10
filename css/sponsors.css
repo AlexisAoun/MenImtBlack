@@ -25,12 +25,16 @@ body{
 }
 
 .spl .description{
+    text-align: center;
     font-size: 20px;
     width: 60%;
     margin-right: 5%;
 }
 
 .spr .description{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     font-size: 20px;
     width: 60%;
     margin-left: 5%;
